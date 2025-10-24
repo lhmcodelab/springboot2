@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
  web:
-   build: ./springboot-app2
+   image: vawing21/springboot2-web3:latest
    container_name: springboot_app2
    ports:
      - "9090:8080"
